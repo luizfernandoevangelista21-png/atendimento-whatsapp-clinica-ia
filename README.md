@@ -6,6 +6,12 @@
 
 ---
 
+## 📌 Status do projeto
+
+Este é um **protótipo de portfólio**: o fluxo foi desenhado e construído no n8n (com apoio de IA generativa dentro do próprio n8n) e testado de ponta a ponta com dados fictícios. As etapas de leitura da agenda (Google Sheets) e verificação de data já rodam com integração real. A etapa de envio via WhatsApp (Meta Cloud API) está **simulada** nesta versão — a integração completa com a API oficial da Meta está em andamento.
+
+![Execução do fluxo completo no n8n](./assets/screenshots/Captura%20de%20Tela%20(54).png)
+
 ## 📌 O problema
 
 Clínicas recebem, em média, dezenas de mensagens por dia no WhatsApp com as mesmas perguntas: horários, endereço, convênios, valores, preparo para exames e pedidos de agendamento. A recepção perde tempo com repetição, pacientes esperam para ser respondidos fora do horário comercial, e qualquer erro de comunicação em uma clínica tem um custo mais alto do que em outros negócios — é preciso cuidado redobrado com o que a IA pode e não pode afirmar.
